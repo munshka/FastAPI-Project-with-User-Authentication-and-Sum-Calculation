@@ -22,8 +22,6 @@ Dependencies are not listed in requirements.txt
 Installation
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 
@@ -53,16 +51,11 @@ Method: POST
 Description: Authenticate the user and receive an access token.
 
 Payload:
-
-json
 {
   "username": "your_username",
   "password": "your_password"
 }
-
 Response:
-json
-
 {
   "access_token": "your_access_token",
   "token_type": "bearer"
